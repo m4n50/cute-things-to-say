@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Prompt:wght@300&family=Roboto:ital,wght@0,100;0,700;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(#AD2831,#800E13,#640D14,#38040E,#250902);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    color:#ffd0d3;
+    font-family: 'Itim', cursive;
+}
+
+main {
+    
+}
+
+h1 {
+    font-family: 'Prompt', sans-serif;
+}
+
+button {
+    padding: .7em;
+    letter-spacing: .6px;
+    cursor: pointer;
+}
