@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Prompt:wght@300&family=Roboto:ital,wght@0,100;0,700;1,100&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
 body{
     background-image: linear-gradient(#AD2831,#800E13,#640D14,#38040E,#250902);
     background-repeat: no-repeat;
@@ -14,16 +9,33 @@ body{
     font-family: 'Itim', cursive;
 }
 
-main {
-    
+* {
+  margin: 0;
+  padding: 0;  
 }
 
 h1 {
+    font-size: 3em;
     font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+}
+
+p#message {
+    font-size: 2em;
 }
 
 button {
-    padding: .7em;
+    padding: 1.5em;
     letter-spacing: .6px;
     cursor: pointer;
+    font-weight: bold;
+    border: none;
+    color: rgb(0, 91, 0);
+    background-color: gold;
+}
+span.st-valentine{
+    font-size: 1.5em;
+}
+span.heart-emoji{
+    font-size: 1em;
 }
