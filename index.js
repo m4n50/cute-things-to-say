@@ -1,7 +1,7 @@
-let message = document.getElementById('message')
+let message = document.getElementById('random-message')
 
 const phrases = [
-    "I can’t stop thinking about you.",
+    "I can't stop thinking about you.",
     "You'll always be my woman.",
     "Since the day I met you, my life has never been the same.",
     "I love making you laugh.",

@@ -6,7 +6,7 @@ body{
     background-attachment: fixed;
     background-size: 100% auto;
     color:#ffd0d3;
-    font-family: 'Itim', cursive;
+    font-family: 'Prompt', sans-serif;
 }
 
 * {
@@ -15,13 +15,13 @@ body{
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: 'Prompt', sans-serif;
     font-weight: bold;
 }
 
-p#message {
-    font-size: 2em;
+p.main-message {
+    font-size: 1.4em;
 }
 
 button {
