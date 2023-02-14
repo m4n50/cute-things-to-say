@@ -20,8 +20,10 @@ h1 {
     font-weight: bold;
 }
 
-p.main-message {
+div.msg-element {
     font-size: 1.4em;
+    flex-direction: column;
+    margin: 20px;
 }
 
 button {
@@ -33,8 +35,14 @@ button {
     color: rgb(0, 91, 0);
     background-color: gold;
 }
+
+p#random-message{
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
 span.st-valentine{
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 span.heart-emoji{
     font-size: 1em;
