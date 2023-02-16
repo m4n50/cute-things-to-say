@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Prompt:wght@300&family=Roboto:ital,wght@0,100;0,700;1,100&display=swap');
 
 body{
+    min-height: 100vh;
     background-image: linear-gradient(#AD2831,#800E13,#640D14,#38040E,#250902);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,36 +15,71 @@ body{
   padding: 0;  
 }
 
-h1 {
-    font-size: 2.5em;
-    font-family: 'Prompt', sans-serif;
-    font-weight: bold;
+main {
+    margin: 5px;
+    padding: 5px;
 }
 
-div.msg-element {
-    font-size: 1.4em;
+.top-msg{
+    font-size: 1.5em;
+    display: flex;
+}
+
+.top-msg div{
+    margin: 15px 20px;
+}
+
+img{
+    max-width: 20%;
+}
+
+.msg-element {
+    font-size: 1.2em;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin: 20px;
 }
 
-button {
-    padding: 1.5em;
+#change-msg-btn{
+    max-width: 10%;
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 15px; 
     letter-spacing: .6px;
     cursor: pointer;
     font-weight: bold;
     border: none;
-    color: rgb(0, 91, 0);
+    color: rgb(0, 90, 0);
     background-color: gold;
 }
 
-p#random-message{
-    font-size: 1.6em;
+#change-msg-btn:hover{
+    background-color: rgb(255, 230, 120);
+    color: rgb(20, 120, 20);
+}
+
+#random-message{
+    font-size: 1.4em;
+    width: 60%;
+}
+
+footer{
+    margin-left: 25px;
+}
+
+.st-valentine{
+    font-size: 1.7em;
+    
+}
+.heart-emoji{
+    font-size: 1em;
+}
+
+.bold{
     font-weight: bold;
 }
 
-span.st-valentine{
-    font-size: 1.7em;
-}
-span.heart-emoji{
-    font-size: 1em;
+.italic{
+    font-style: italic;
 }

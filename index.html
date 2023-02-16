@@ -9,24 +9,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Itim&family=Prompt:wght@300&family=Roboto:ital,wght@0,100;0,700;1,100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
-    <script src="index.js"></script>
 </head>
 <body>
     <main>
-        <div class="msg-element">
-            <h1>Stephanie,</h1>
-            <p class="main-message">It would be nice if I could hug you. Kiss you. Feeling like the first time.</p> 
-            <p class="main-message">Give you all the cuddles you deserve.</p> 
-            <p class="main-message">I know I love you like anyone else.</p> 
-            <p class="main-message">No one ever loved you like I do.</p>
-            <!--<button>CLICK ME</button>-->
+        <div class="top-msg">
+            <img src="family.png" alt="feline family together">
+            <div>
+                <p class="main-message italic">I walk beside you</p> 
+                <p class="main-message italic">Wherever you are</p> 
+                <p class="main-message italic">Whatever it takes</p> 
+                <p class="main-message italic">No matter how far</p>
+                <p class="main-message italic">Through all that may come</p>
+                <p class="main-message italic">And all that may go</p>
+                <p class="main-message italic bold">I walk beside you</p>
+            </div>
         </div>
         <div class="msg-element">
-            <p id="random-message">I can't stop thinking about you.</p>
-            <span class="heart-emoji">&#128151</span>
-            <span class="st-valentine">Happy Valentine's Day</span>
-            <span class="heart-emoji">&#128151</span>
+            <p id="random-message" class="bold">I can't stop thinking about you.</p>
+            <button id="change-msg-btn">CLICK ME</button>
         </div>
     </main>
+    <footer>
+        <span class="heart-emoji">&#128151</span>
+        <span class="st-valentine italic">For Steph</span>
+        <span class="heart-emoji">&#128151</span>
+    </footer>
+    <script src="index.js"></script>
 </body>
 </html>

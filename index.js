@@ -1,4 +1,10 @@
-let message = document.getElementById('random-message')
+let message = document.getElementById("random-message")
+const btn = document.getElementById("change-msg-btn")
+
+btn.addEventListener("click", function() {
+    let randomPhrase = phrases[Math.floor(Math.random() * phrases.length)]
+    message.innerText = randomPhrase
+})
 
 const phrases = [
     "I can't stop thinking about you.",
@@ -51,6 +57,3 @@ const phrases = [
     "Going through difficult times with you has only strengthened our relationship.",
     "I have waited all of my life to be with someone like you."
 ]
-console.log(Math.floor(Math.random() * phrases.length))
-console.log(message)
-
