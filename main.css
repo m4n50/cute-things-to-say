@@ -30,7 +30,7 @@ main {
 }
 
 img{
-    max-width: 20%;
+    width: 40%;
 }
 
 .msg-element {
@@ -42,7 +42,7 @@ img{
 }
 
 #change-msg-btn{
-    max-width: 10%;
+    width: 150px;
     border-radius: 5px;
     padding: 1em;
     margin-top: 15px; 
@@ -61,7 +61,6 @@ img{
 
 #random-message{
     font-size: 1.4em;
-    width: 60%;
 }
 
 footer{
